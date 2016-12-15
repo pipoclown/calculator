@@ -15,4 +15,9 @@ public class Calculator {
 	int divide(int i, int j){
 		return i / j;
 	}
+	
+	//step 4
+	int multiply(int i, int j){
+		return i * j;
+	}
 }

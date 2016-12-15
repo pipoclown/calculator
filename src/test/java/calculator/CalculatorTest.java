@@ -24,4 +24,10 @@ public class CalculatorTest {
 		assertEquals(1, c.divide(1,1));
 	}
 	
+	@Test
+	public void multiplyTest() {
+		Calculator c = new Calculator();
+		assertEquals(1, c.multiply(1,1));
+	}
+	
 }
