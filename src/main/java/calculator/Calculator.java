@@ -10,4 +10,9 @@ public class Calculator {
 	int subtract(int i, int j){
 		return i - j;
 	}
+	
+	//step 3
+	int divide(int i, int j){
+		return i / j;
+	}
 }

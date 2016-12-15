@@ -17,4 +17,11 @@ public class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(0, c.subtract(1,1));
 	}
+	
+	@Test
+	public void divideTest() {
+		Calculator c = new Calculator();
+		assertEquals(1, c.divide(1,1));
+	}
+	
 }
