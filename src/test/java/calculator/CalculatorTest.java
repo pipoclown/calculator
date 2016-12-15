@@ -30,4 +30,10 @@ public class CalculatorTest {
 		assertEquals(1, c.multiply(1,1));
 	}
 	
+	@Test
+	public void sumTest() {
+		Calculator c = new Calculator();
+		assertEquals(3, c.sum(1, 1, 1));
+	}
+	
 }

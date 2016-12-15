@@ -20,4 +20,9 @@ public class Calculator {
 	int multiply(int i, int j){
 		return i * j;
 	}
+	
+	// step 5 
+	int sum (int i, int j, int k){
+		return i + j + k;
+	}
 }
