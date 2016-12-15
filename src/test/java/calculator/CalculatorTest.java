@@ -36,4 +36,11 @@ public class CalculatorTest {
 		assertEquals(3, c.sum(1, 1, 1));
 	}
 	
+	@Test
+	public void minTest() {
+		Calculator c = new Calculator();
+		assertEquals(-1, c.minsum(1, 1, 1));
+	}
+	
+	
 }

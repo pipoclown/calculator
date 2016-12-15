@@ -25,4 +25,10 @@ public class Calculator {
 	int sum (int i, int j, int k){
 		return i + j + k;
 	}
+	
+	// step 6 
+	int minsum (int i, int j, int k){
+		return i - j - k;
+	}
+	
 }
