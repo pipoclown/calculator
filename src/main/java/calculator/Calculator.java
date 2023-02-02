@@ -6,6 +6,10 @@ public class Calculator {
 		return i + j;
 	}
 	
+	int add2(int i, int j){
+		return 2*i + 2*j;
+	}
+	
 	//step 2
 	int subtract(int i, int j){
 		return i - j;

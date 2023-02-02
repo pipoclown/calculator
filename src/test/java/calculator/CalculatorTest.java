@@ -13,6 +13,12 @@ public class CalculatorTest {
 	}
 	
 	@Test
+	public void add2Test() {
+		Calculator c = new Calculator();
+		assertEquals(4, c.add2(1,1));
+	}
+	
+	@Test
 	public void subtractTest() {
 		Calculator c = new Calculator();
 		assertEquals(0, c.subtract(1,1));
